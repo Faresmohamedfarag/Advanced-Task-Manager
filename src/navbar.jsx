@@ -17,8 +17,8 @@ const Navbar = (props) => {
       <button className="btn btn-outline-primary my-2 my-sm-0" type="submit"><i className="fa-solid fa-magnifying-glass"></i></button>
     </form> 
         </li>
-        <i style={{cursor:"pointer"}} class="fa-solid fa-bell fs-5 "></i>
-        <i style={{cursor:"pointer"}} class="fa-regular fa-circle-user fs-5  "></i>
+        <i style={{cursor:"pointer"}} className="fa-solid fa-bell fs-5 "></i>
+        <i style={{cursor:"pointer"}} className="fa-regular fa-circle-user fs-5  "></i>
         </ul>
     </div>
     </nav>
