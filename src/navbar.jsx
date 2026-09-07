@@ -5,7 +5,7 @@ const Navbar = (props) => {
     return ( <>
     <nav style={{height:'55px',display:"flex",alignItems:"center" }} className=' w-100  bg-white ml-1 rounded'>
     <div className="container-fluid d-flex align-items-center ms-3 d-flex justify-content-between">
-    <a className="navbar-brand fw-bold fs-5" href="#" style={{ color: "#222937", textDecoration: "none" }}>{ window.location.pathname.replace("/", "") === "" ? "dashboard" : window.location.pathname.replace("/","")}</a>
+    <button className="navbar-brand fw-bold fs-5"  style={{ color: "#222937", textDecoration: "none" }}>{ window.location.pathname.replace("/", "") === "" ? "dashboard" : window.location.pathname.replace("/","")}</button>
     <ul className="navbar-nav flex-row ms-3 d-flex  align-items-center  gap-3"   style={{
             listStyle: "none",
             padding: 0,

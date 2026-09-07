@@ -27,7 +27,7 @@ class Dashboard extends Component  {
     return (<div style={{width:"74%",display:'flex',flexDirection:"column",gap:"20px",marginLeft:"10px",overflowX:"hidden"}}>
     <Navbar  />
     <Statistics data = {this.state} />
-    <div style={{display:"flex",height:"250px",display:"flex",gap:"35px"}}>
+    <div style={{display:"flex",height:"250px",gap:"35px"}}>
     <TaskCompletion data = {this.state} />
     <ProductivityChart data = {this.state} />
     </div>
