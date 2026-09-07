@@ -31,7 +31,7 @@ class Dashboard extends Component  {
     <TaskCompletion data = {this.state} />
     <ProductivityChart data = {this.state} />
     </div>
-    <div style={{display:"flex",height:"330px",width:"100%",display:"flex",gap:"35px",}}>
+    <div style={{display:"flex",height:"330px",width:"100%",gap:"35px",}}>
         <UpcomingDeadlines />
         <RecentTasks recent = {this.props.data} />
     </div>

@@ -6,8 +6,6 @@ import { Outlet } from "react-router-dom";
 import { Routes } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
 import { Component } from "react";
-import { useNavigate } from "react-router-dom";
-import { useLocation } from "react-router-dom";
 import Categories from './categories';
 import CompletedTasks from "./completedTasks";
 import Pending from "./activeTasks";
