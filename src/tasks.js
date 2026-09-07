@@ -1,0 +1,58 @@
+const tasks = [
+    {
+      id: 1,
+      title: "Complete React Project",
+      description: "Finish the TaskFlow dashboard and tasks page.",
+      priority: "High",
+      status: "Pending",
+      category: "Development",
+      dueDate: "2026-09-06",
+    },
+    {
+      id: 2,
+      title: "Update Portfolio",
+      description: "Add the new TaskFlow project to the portfolio.",
+      priority: "Medium",
+      status: "Pending",
+      category: "Personal",
+      dueDate: "2026-09-08",
+    },
+    {
+      id: 3,
+      title: "Build Navbar",
+      description: "Create the responsive navigation bar.",
+      priority: "High",
+      status: "Completed",
+      category: "Development",
+      dueDate: "2026-09-04",
+    },
+    {
+      id: 4,
+      title: "Create Sidebar",
+      description: "Build the dashboard sidebar navigation.",
+      priority: "Medium",
+      status: "Completed",
+      category: "Development",
+      dueDate: "2026-09-04",
+    },
+    {
+      id: 5,
+      title: "Learn Node.js",
+      description: "Study Node.js fundamentals and modules.",
+      priority: "Low",
+      status: "Pending",
+      category: "Learning",
+      dueDate: "2026-09-10",
+    },
+    {
+      id: 6,
+      title: "Add Task Form",
+      description: "Create the form for adding new tasks.",
+      priority: "High",
+      status: "Pending",
+      category: "Development",
+      dueDate: "2026-09-07",
+    },
+  ];
+  
+  export default tasks;
